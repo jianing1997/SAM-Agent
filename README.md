@@ -6,7 +6,7 @@ This public repository contains the code release for the manuscript:
 
 **Multi-Agent AI Enables End-to-End Discovery of Functional Molecules for Optoelectronics**
 
-Large model weights, generated molecular libraries, processed datasets, and other bulky artifacts are not stored in this GitHub repository. They will be archived in an external data repository with a DOI.
+Model training/evaluation scripts are included in this GitHub repository. Large model weights, generated molecular libraries, processed datasets, and other bulky artifacts are not stored here. They will be archived in an external data repository with a DOI.
 
 ## Repository Contents
 
@@ -26,6 +26,11 @@ SAM-Agent/
 │   │       └── RAG/
 │   ├── webapp/
 │   └── run_webapp.py
+├── models/
+│   ├── chemical_vae/
+│   ├── device_evaluator/
+│   ├── fine_tuned_predictor/
+│   └── structure_constrained_molecular_generator/
 ├── experiments/
 │   └── screening_workflow.ipynb
 ├── environment.yml
@@ -132,6 +137,7 @@ print(response["output"])
 
 - The molecular generator expects scaffold SMILES inputs rather than molecule names.
 - Large model checkpoints and generated files should be downloaded from the external data archive before running full reproduction workflows.
+- The `models/` directory contains training, evaluation, and analysis scripts only; weights and large datasets are excluded from GitHub.
 - Local runtime files are written to `SAM_AGENT/runtime/` and are ignored by Git.
 - Do not commit `.env` or other files containing API keys.
 

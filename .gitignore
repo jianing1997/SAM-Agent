@@ -30,7 +30,6 @@ SAM_AGENT/AI_agents/tools/molecular_generator/generated_data.csv
 
 # Large model and data artifacts
 data/
-models/
 checkpoints/
 weights/
 outputs/
@@ -59,6 +58,17 @@ results/
 *.mp4
 *.pdf
 10.1021_jacs.5c05801.md
+
+# Model subdirectories may contain code, but not bulky artifacts.
+models/**/data/
+models/**/datasets/
+models/**/weights/
+models/**/homo_weights/
+models/**/lumo_weights/
+models/**/dm_weights/
+models/**/test_data/
+models/**/result/
+models/**/results/
 
 # Generated RAG artifacts
 SAM_AGENT/AI_agents/tools/RAG/SAM_knowledge_cards_vector/

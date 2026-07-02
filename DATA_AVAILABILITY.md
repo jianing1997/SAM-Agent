@@ -5,6 +5,7 @@ This repository contains the public source code for SAM-Agent. Large files are i
 ## Included in This Repository
 
 - SAM-Agent source code
+- Model training, evaluation, and analysis scripts
 - Web application code
 - Environment specification
 - Example workflow notebook
