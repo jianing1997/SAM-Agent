@@ -12,30 +12,32 @@ Model training/evaluation scripts are included in this GitHub repository. Large 
 
 ```text
 SAM-Agent/
-├── SAM_AGENT/
-│   ├── AI_agents/
-│   │   ├── SAMAgent.py
-│   │   ├── config/
-│   │   └── tools/
-│   │       ├── molecular_generator/
-│   │       ├── property_predictor/
-│   │       ├── device_evaluator/
-│   │       ├── retrosynthesis_planner/
-│   │       ├── literature_extractor/
-│   │       ├── molecular_informatics_tools/
-│   │       └── RAG/
-│   ├── webapp/
-│   └── run_webapp.py
-├── models/
-│   ├── chemical_vae/
-│   ├── device_evaluator/
-│   ├── fine_tuned_predictor/
-│   └── structure_constrained_molecular_generator/
-├── experiments/
-│   └── screening_workflow.ipynb
-├── environment.yml
-├── LICENSE
-└── README.md
+|-- SAM_AGENT/
+|   |-- AI_agents/
+|   |   |-- SAMAgent.py
+|   |   |-- config/
+|   |   `-- tools/
+|   |       |-- molecular_generator/
+|   |       |-- property_predictor/
+|   |       |-- device_evaluator/
+|   |       |-- retrosynthesis_planner/
+|   |       |-- literature_extractor/
+|   |       |-- molecular_informatics_tools/
+|   |       `-- RAG/
+|   |-- webapp/
+|   `-- run_webapp.py
+|-- models/
+|   |-- chemical_vae/
+|   |-- device_evaluator/
+|   |-- fine_tuned_predictor/
+|   `-- structure_constrained_molecular_generator/
+|-- experiments/
+|   `-- screening_workflow.ipynb
+|-- ARCHIVE_MANIFEST.md
+|-- DATA_AVAILABILITY.md
+|-- environment.yml
+|-- LICENSE
+`-- README.md
 ```
 
 ## Data and Model Availability
@@ -56,6 +58,8 @@ Expected external artifacts include:
 - retrosynthesis resources used by the workflow
 - generated SAM candidate libraries and screening outputs
 - RAG knowledge cards and vector indexes
+
+See `ARCHIVE_MANIFEST.md` for the current local inventory of large files excluded from GitHub.
 
 ## Installation
 

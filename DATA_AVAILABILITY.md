@@ -33,3 +33,5 @@ Version: to be added
 ## Suggested Citation Statement
 
 Code is available at this GitHub repository. The processed datasets, generated molecular libraries, model weights, and other large artifacts are available from the external archive listed above.
+
+See `ARCHIVE_MANIFEST.md` for the current local inventory of large artifacts excluded from GitHub.
