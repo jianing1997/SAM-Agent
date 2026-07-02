@@ -6,7 +6,7 @@ This public repository contains the code release for the manuscript:
 
 **Multi-Agent AI Enables End-to-End Discovery of Functional Molecules for Optoelectronics**
 
-Model training/evaluation scripts are included in this GitHub repository. Large model weights, generated molecular libraries, processed datasets, and other bulky artifacts are not stored here. They will be archived in an external data repository with a DOI.
+Model training/evaluation scripts are included in this GitHub repository. Large model weights, generated molecular libraries, processed datasets, and other bulky artifacts are not stored here. They have been packaged as a separate data/model archive and should be deposited in an external repository with a DOI before submission or publication.
 
 ## Repository Contents
 
@@ -44,7 +44,7 @@ SAM-Agent/
 
 This GitHub repository intentionally excludes large files, including trained model weights, generated molecular libraries, retrosynthesis datasets, RAG vector indexes, and full processed datasets.
 
-After archival, please cite and download the full data/model package from:
+After DOI deposition, please cite and download the full data/model package from:
 
 ```text
 DOI: to be added
@@ -59,7 +59,15 @@ Expected external artifacts include:
 - generated SAM candidate libraries and screening outputs
 - RAG knowledge cards and vector indexes
 
-See `ARCHIVE_MANIFEST.md` for the current local inventory of large files excluded from GitHub.
+Prepared archive package:
+
+```text
+Version: v20260702
+Total package size: approximately 25.001 GB
+Package format: tar files plus SHA256 checksums
+```
+
+See `ARCHIVE_MANIFEST.md` for the package list and the current inventory of large files excluded from GitHub.
 
 ## Installation
 

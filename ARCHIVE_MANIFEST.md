@@ -6,17 +6,32 @@ Inventory source: local full project directory `F:\projects\SAM_Agent_`
 
 Inventory date: 2026-07-02
 
-Inventory baseline code commit: `985c199`
+Prepared archive version: `v20260702`
 
 ## Summary
 
 The public GitHub repository contains code, model training/evaluation scripts, configuration files, and small example notebooks. It excludes trained weights, generated molecular libraries, processed datasets, pretrained third-party model files, and runtime artifacts.
 
-Estimated archive candidates:
+Prepared local archive package:
 
-| Class | Count | Size |
+| Class | Count / files | Size |
 | --- | ---: | ---: |
-| Large/data/model candidate files | 13,403 | 25.132 GB |
+| Files staged in `overlay/` | 13,626 | 24.991 GB |
+| Upload-ready tar packages | 7 tar files plus 2 checksum/manifest files | 25.001 GB |
+
+## Upload-Ready Tar Packages
+
+| Package | Size | Contents |
+| --- | ---: | --- |
+| `sam-agent-metadata-v20260702.tar` | 0.004 GB | Archive README, file-level manifest, checksums, copy log, and repository metadata template |
+| `sam-agent-generated-data-v20260702.tar` | 0.726 GB | Generated SAM molecular libraries |
+| `sam-agent-retrosynthesis-resources-v20260702.tar` | 7.488 GB | Retrosynthesis datasets and one-step model resources |
+| `sam-agent-property-predictor-resources-v20260702.tar` | 3.006 GB | Property-predictor/Uni-Mol resources and weights |
+| `sam-agent-decimer-resources-v20260702.tar` | 0.902 GB | DECIMER/image-extraction pretrained model resources |
+| `sam-agent-fine-tuned-predictor-resources-v20260702.tar` | 12.235 GB | Fine-tuned predictor datasets, checkpoints, and analysis artifacts |
+| `sam-agent-generator-vae-device-resources-v20260702.tar` | 0.639 GB | Structure-constrained generator, chemical VAE, and device-evaluator resources |
+
+The local package also includes `archives_manifest.csv` and `archives_sha256.txt` for package-level size and SHA256 verification.
 
 ## Major Local Artifact Groups
 

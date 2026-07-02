@@ -22,12 +22,12 @@ This repository contains the public source code for SAM-Agent. Large files are i
 
 ## External Archive
 
-The complete data and model package should be archived in a long-term repository such as Zenodo, Figshare, OSF, Dryad, or an institutional data repository.
+The complete data and model package has been prepared as a local archive package and should be deposited in a long-term repository such as Zenodo, Figshare, OSF, Dryad, or an institutional data repository.
 
 ```text
 DOI: to be added
-Archive title: to be added
-Version: to be added
+Archive title: SAM-Agent data and model archive for Multi-Agent AI Enables End-to-End Discovery of Functional Molecules for Optoelectronics
+Version: v20260702
 ```
 
 ## Suggested Citation Statement
