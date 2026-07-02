@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Environments and local secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+
+# IDE/editor and OS files
+.vscode/
+.cursor/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Runtime outputs
+logs/
+runtime/
+SAM_AGENT/runtime/
+SAM_AGENT/smiles_data.csv
+SAM_AGENT/AI_agents/smiles_data.csv
+SAM_AGENT/AI_agents/tools/molecular_generator/generated_data.csv
+
+# Large model and data artifacts
+data/
+models/
+checkpoints/
+weights/
+outputs/
+results/
+*.csv
+*.tsv
+*.xlsx
+*.sdf
+*.pt
+*.pth
+*.pkl
+*.h5
+*.ckpt
+*.pb
+*.data
+*.data-00000-of-00001
+*.index
+*.dat
+*.ss
+*.opju
+*.zip
+*.tar
+*.tar.gz
+*.gz
+*.7z
+*.mp4
+*.pdf
+
+# Generated RAG artifacts
+SAM_AGENT/AI_agents/tools/RAG/SAM_knowledge_cards_vector/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/

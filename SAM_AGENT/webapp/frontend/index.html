@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAM-Agent</title>
+    <link rel="stylesheet" href="/static/styles.css?v=2.2">
+    <!-- RDKit.js for molecule visualization -->
+    <script src="https://unpkg.com/@rdkit/rdkit/Code/MinimalLib/dist/RDKit_minimal.js"></script>
+    <!-- Marked.js for Markdown rendering -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Left Sidebar: Conversation History -->
+        <aside class="left-sidebar">
+            <div class="sidebar-header">
+                <h1>🔬 SAM-Agent</h1>
+                <button class="btn-new-chat" onclick="newChat()" title="Start new chat">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 5v14M5 12h14"/>
+                    </svg>
+                    New Chat
+                </button>
+            </div>
+            
+            <div class="history-section">
+                <h3>Chat History 💬</h3>
+                <div id="conversation-list" class="conversation-list">
+                    <!-- Conversation history will be loaded here -->
+                </div>
+            </div>
+            
+            <div class="sidebar-footer">
+                <div class="status-indicator">
+                    <span class="status-dot" id="status-dot"></span>
+                    <span id="status-text">Connecting...</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Chat Area -->
+        <main class="main-content">
+            <div class="chat-header">
+                <h2>SAM-Agent</h2>
+                <p class="subtitle">Molecular Design · Property Prediction · Device Evaluation · Synthesis Planning</p>
+            </div>
+
+            <div class="chat-container" id="chat-container">
+                <div class="welcome-message">
+                    <h2>👋 Welcome to SAM-Agent</h2>
+                    <p>I can help you with the following tasks:</p>
+                    <div class="feature-grid">
+                        <div class="feature-card">
+                            <span class="feature-icon">🧬</span>
+                            <h3>Molecule Generation</h3>
+                            <p>Generate SAM molecules based on scaffolds and anchoring groups</p>
+                        </div>
+                        <div class="feature-card">
+                            <span class="feature-icon">📊</span>
+                            <h3>Property Prediction</h3>
+                            <p>Predict HOMO, LUMO, and dipole moment</p>
+                        </div>
+                        <div class="feature-card">
+                            <span class="feature-icon">⚡</span>
+                            <h3>Device Evaluation</h3>
+                            <p>Evaluate perovskite solar cell efficiency</p>
+                        </div>
+                        <div class="feature-card">
+                            <span class="feature-icon">🔄</span>
+                            <h3>Synthesis Planning</h3>
+                            <p>Generate retrosynthetic routes</p>
+                        </div>
+                    </div>
+                    <div class="example-prompts">
+                        <p><strong>Try these questions:</strong></p>
+                        <button class="example-btn" onclick="sendExample('Generate 3 SAM molecules with carbazole scaffold and phosphonic acid anchoring group')">
+                            Generate SAM molecules with carbazole scaffold
+                        </button>
+                        <button class="example-btn" onclick="sendExample('Predict HOMO, LUMO and dipole moment for molecule O=P(O)(O)CCCn1c2ccccc2c2ccccc21')">
+                            Predict molecular electronic properties
+                        </button>
+                        <button class="example-btn" onclick="sendExample('What is SAM and what is its role in perovskite solar cells?')">
+                            Learn about SAM applications
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-container">
+                <div class="input-wrapper">
+                    <textarea 
+                        id="user-input" 
+                        placeholder="Type your question... (Shift + Enter for new line)" 
+                        rows="1"
+                        onkeydown="handleKeyDown(event)"
+                    ></textarea>
+                    <button class="btn-send" onclick="sendMessage()" id="send-btn">
+                        <span>Send</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        <!-- Right Sidebar: Tools -->
+        <aside class="right-sidebar">
+            <div class="tools-header">
+                <h3>🛠️ Available Tools</h3>
+                <span class="tool-count" id="tool-count">10 tools</span>
+            </div>
+            
+            <div id="tools-list" class="tools-list">
+                <!-- Tools will be loaded dynamically -->
+            </div>
+        </aside>
+    </div>
+
+    <script src="/static/app.js?v=2.5"></script>
+</body>
+</html>

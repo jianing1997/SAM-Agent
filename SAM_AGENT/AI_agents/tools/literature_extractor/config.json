@@ -1,0 +1,24 @@
+{
+  "llm": {
+    "api_url": "https://api.deepseek.com/v1/chat/completions",
+    "api_key": "",
+    "model": "deepseek-chat",
+    "temperature": 0,
+    "max_tokens": 8000
+  },
+  "output_dir": "knowledge_cards",
+  "retry_attempts": 3,
+  "retry_delay": 2.0,
+  "log_level": "INFO",
+  "mineru": {
+    "mineru_url": "http://127.0.0.1:8000/file_parse",
+    "local_md_dir": "temp_markdown",
+    "mineru_output_dir": "MinerU/output",
+    "parse_method": "ocr"
+  },
+  "molecule_image_extractor": {
+    "enabled": false,
+    "output_dir": "molecule_image_results"
+  }
+}
+

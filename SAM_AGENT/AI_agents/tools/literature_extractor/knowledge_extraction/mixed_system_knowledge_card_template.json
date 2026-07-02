@@ -1,0 +1,209 @@
+{
+  "_comment_1": "Mixed system knowledge card template - modifiers.type options: dispersant, dopant, blending component, surfactant, stabilizer, etc.",
+  "_comment_2": "Metadata fields are AUTO-FILLED by code. Do NOT extract DOI, paper_title, journal, year.",
+  "metadata": {
+    "document_id": "AUTO_FILLED",
+    "DOI": "AUTO_FILLED",
+    "paper_title": "AUTO_FILLED",
+    "journal": "AUTO_FILLED",
+    "year": "AUTO_FILLED",
+    "system_id": "AUTO_FILLED",
+    "system_role": "AUTO_FILLED",
+    "system_index": 1,
+    "total_systems": 1,
+    "system_name": "AUTO_FILLED",
+    "baseline_reference": "AUTO_FILLED",
+    "related_systems": []
+  },
+
+  "system_identity": {
+    "system_name": "N/A",
+    "system_type": "mixed",
+    "components": {
+      "main_sam": {
+        "_instruction": "full_name MUST be the English full name (not abbreviation or Chinese name)",
+        "full_name": "N/A",
+        "abbreviation": "N/A",
+        "smiles": "N/A",
+        "concentration": "N/A",
+        "function": "N/A"
+      },
+      "modifiers": [
+        {
+          "name": "N/A",
+          "abbreviation": "N/A",
+          "smiles": "N/A",
+          "type": "N/A",
+          "concentration": "N/A",
+          "function": "N/A"
+        }
+      ]
+    },
+    "mixing_ratio": "N/A",
+    "mixing_method": "N/A",
+    "synergistic_effects": "N/A"
+  },
+
+  "intrinsic_structure_features": {
+    "overall_structure": {
+      "instruction": "Describe the overall structural features of the mixed system, including the structures of each component and their interactions.",
+      "description": "N/A"
+    },
+    "component_interactions": {
+      "instruction": "Describe the interaction mechanisms between components and synergistic effects.",
+      "description": "N/A"
+    },
+    "synergistic_effects": {
+      "instruction": "Describe the synergistic effects and overall advantages of the mixed system.",
+      "description": "N/A"
+    },
+    "anchor_group": {
+      "type": "N/A",
+      "detailed_structure": "N/A",
+      "binding_mechanism": "N/A",
+      "binding_sites": "N/A",
+      "instruction": "Extract anchoring moiety information of the main SAM: (1) type: common types include phosphonic acid, carboxylic acid, silane, thiol, catechol, etc., (2) detailed_structure: full chemical name if available (e.g., '2-(7H-dibenzo[c,g]carbazol-7-yl)ethyl phosphonic acid'), (3) binding_mechanism: how it binds to substrate (e.g., 'deprotonation reaction with PEDOT:PSS surface', 'coordination with metal oxide'), (4) binding_sites: specific atoms or groups on substrate (e.g., 'sulfur atoms in thiophene rings', 'surface hydroxyl groups'). If information is not available, fill 'N/A'.",
+      "description": "N/A"
+    },
+    "linker": {
+      "type": "N/A",
+      "length": "N/A",
+      "flexibility": "N/A",
+      "conjugation": "N/A",
+      "instruction": "Extract the connecting segment information of the main SAM: (1) type (e.g., alkyl, aryl, vinyl groups), (2) length: number of carbon atoms or chain length (e.g., '2 carbon atoms', 'C2 alkyl chain'), (3) flexibility: characteristics (e.g., 'flexible', 'rigid', 'moderate flexibility'), (4) conjugation: status (e.g., 'non-conjugated', 'π-conjugated', 'partially conjugated'). If information is not available, fill 'N/A'.",
+      "description": "N/A"
+    },
+    "terminal_group": {
+      "type": "N/A",
+      "electronic_properties": "N/A",
+      "spatial_configuration": "N/A",
+      "instruction": "Extract functional unit information of the main SAM: (1) type: functional group type (e.g., arylamine, substituted carbazole, fluorinated terminus), (2) electronic_properties: electron-donating/withdrawing effects (e.g., 'electron-donating, increases electron density'), (3) spatial_configuration: arrangement (e.g., 'planar aromatic structure', 'three-dimensional arrangement'). If information is not available, fill 'N/A'.",
+      "description": "N/A"
+    },
+    "structure_compatibility": {
+      "anchor_linker_compatibility": "N/A",
+      "linker_terminal_compatibility": "N/A",
+      "component_coordination": "N/A",
+      "mixing_ratio_rationality": "N/A",
+      "spatial_fit": "N/A",
+      "stability": "N/A",
+      "instruction": "Extract structure compatibility information for the mixed system: (1) anchor_linker_compatibility: chemical compatibility and potential conflicts (e.g., 'good, no conflicts'), (2) linker_terminal_compatibility: electronic continuity and spatial fit (e.g., 'excellent, π-conjugation maintained'), (3) component_coordination: coordination between main SAM and modifiers, (4) mixing_ratio_rationality: whether the mixing ratio is reasonable, (5) spatial_fit: overall spatial arrangement (e.g., 'optimal, planar structure facilitates SAM formation'), (6) stability: thermal and chemical stability (e.g., 'high thermal and chemical stability'). If information is not available, fill 'N/A'.",
+      "description": "N/A"
+    },
+    "structure_assessment": {
+      "instruction": "Provide a comprehensive assessment of the overall structural rationality of the mixed system. Include: (1) anchor-linker compatibility (chemical compatibility, potential conflicts), (2) linker-terminal compatibility (electronic continuity, spatial fit), (3) component coordination (main SAM and modifiers), (4) mixing ratio rationality, (5) overall spatial fit and structural stability. Evaluate component coordination, mixing ratio rationality, and synergistic effects.",
+      "description": "N/A"
+    }
+  },
+
+  "electronic_and_chemical_properties": {
+    "combined_electronic_properties": {
+      "instruction": "Describe the combined electronic properties of the mixed system, including the synergistic effects of each component's electronic properties.",
+      "description": "N/A"
+    },
+    "lewis_acid_base": {
+      "instruction": "Describe the Lewis acid-base characteristics of the mixed system, explaining the synergistic ability of each component as an electron donor or acceptor.",
+      "description": "N/A"
+    },
+    "molecular_polarity_and_dipole": {
+      "instruction": "Describe the polarity and dipole distribution of the mixed system, analyzing the synergistic effects of each component in solution processing, orientation alignment, and interfacial energy level tuning.",
+      "description": "N/A"
+    },
+    "electronic_conjugation_and_polarizability": {
+      "instruction": "Describe the degree of π-conjugation and polarization characteristics of the mixed system, discussing the synergistic effects of each component on charge transport and interfacial energy distribution.",
+      "description": "N/A"
+    }
+  },
+
+  "interface_effects": {
+    "energy_and_dipole_alignment": {
+      "instruction": "Explain the role of the mixed system in interfacial energy level and dipole tuning. Extract qualitative descriptions of work function changes, valence band position changes, energy level matching, and dipole moment direction if mentioned. Analyze the synergistic effects of each component in improving energy level matching and establishing a favorable interfacial potential difference, and point out possible deviations or uncertainties.",
+      "description": "N/A"
+    },
+    "defect_passivation": {
+      "instruction": "Describe the synergistic role of functional groups in each component of the mixed system in defect passivation. Extract defect types being passivated (e.g., 'Sn2+ oxidation', 'surface defects', 'grain boundary defects'), passivation mechanism (e.g., 'electron density increase', 'coordination with under-coordinated sites'), and qualitative effectiveness descriptions. Explain their interactions with under-coordinated sites or ionic defects, and point out possible passivation limitations.",
+      "description": "N/A"
+    },
+    "charge_extraction_and_transport": {
+      "instruction": "Explain the synergistic role of the mixed system in interfacial charge extraction and transport. Extract mechanism and efficiency: (1) extraction pathway (e.g., 'direct hole extraction', 'tunneling mechanism'), (2) extraction efficiency indicators (e.g., 'PL intensity increased', 'recombination resistance: 417 Ω → 1114 Ω'), (3) transport mechanism (e.g., 'enhanced conductivity', 'reduced PSS content'), (4) carrier mobility or conductivity data if available. Analyze the combined effects of each component in reducing energy barriers and improving contact, while pointing out potential limitations in mobility or interfacial impedance.",
+      "description": "N/A"
+    },
+    "film_formation_and_morphology": {
+      "instruction": "Describe the wettability and film-forming behavior of the mixed system. Extract relevant details about grain size changes, surface roughness, crystallinity improvements, and film quality indicators if mentioned. Explain the synergistic effects of each component in promoting perovskite crystallization and film densification, and point out risks that may lead to film roughness or solvent dependence.",
+      "description": "N/A"
+    }
+  },
+
+  "device_performance": {
+    "best_performance": {
+      "instruction": "Extract ONLY the champion/best device performance of THIS specific mixed system (not the best device in the entire paper, not average performance). All four parameters (Voc, Jsc, FF, PCE) must be from the SAME best-performing device under THIS system's conditions. If forward and reverse scans are reported, prefer reverse scan or stabilized power output.",
+      "voc": "N/A",
+      "jsc": "N/A",
+      "ff": "N/A",
+      "pce": "N/A",
+      "scan_direction": "N/A"
+    },
+    "reference_performance": {
+      "instruction": "For TARGET systems: Extract the control/baseline device performance for comparison (e.g., main SAM alone, bare ITO, or another control device). This is the reference used to compare against the target system. For CONTROL systems: Fill N/A (control systems don't have a reference). Extract the champion device performance of that baseline system (not average).",
+      "device_type": "N/A",
+      "voc": "N/A",
+      "jsc": "N/A",
+      "ff": "N/A",
+      "pce": "N/A"
+    }
+  },
+
+  "processing_conditions": {
+    "deposition_method": "N/A",
+    "solvent": "N/A",
+    "concentration": "N/A",
+    "substrate": "N/A",
+    "annealing_temp": "N/A",
+    "annealing_time": "N/A",
+    "additional_treatment": "N/A",
+    "environmental_conditions": {}
+  },
+
+  "practicality": {
+    "synthetic_feasibility": {
+      "instruction": "Describe the synthetic complexity and availability of raw materials for the mixed system, evaluating the advantages and limitations of each component in experimental feasibility and scale-up preparation.",
+      "description": "N/A"
+    },
+    "solubility_and_processability": {
+      "instruction": "Describe the solubility of the mixed system in common solvent systems and its process compatibility, explaining the synergistic adaptability of each component in solution processing, spin-coating, or evaporation.",
+      "description": "N/A"
+    },
+    "stability_and_reliability": {
+      "instruction": "Explain the stability of the mixed system under thermal, light, air, or chemical environments, evaluating the synergistic effects of each component on device lifetime and long-term operational reliability.",
+      "description": "N/A"
+    },
+    "design_extensibility": {
+      "instruction": "Describe the structural extensibility and derivative potential of the mixed system, discussing whether each component has design space for family-wide modification and synergistic optimization directions.",
+      "description": "N/A"
+    }
+  },
+
+  "design_insights": {
+    "strengths": "N/A",
+    "limitations": "N/A",
+    "synergistic_mechanisms": "N/A",
+    "novelty": {
+      "innovation_points": [],
+      "differentiation": "N/A",
+      "applicability": "N/A",
+      "instruction": "Extract novelty information for the mixed system: (1) innovation_points: list of novel mechanisms introduced (e.g., ['multifunctional SAM design', 'PEDOT:PSS surface modification via deprotonation', 'electron density modulation for Sn2+ protection']), (2) differentiation: how it differs from existing methods (e.g., 'compared to traditional methods, this approach...'), (3) applicability: potential for extension to other systems (e.g., 'can be extended to other Sn-based systems'). If no explicit novelty is mentioned, fill 'N/A' or empty list [].",
+      "description": "N/A"
+    },
+    "design_principles": {
+      "key_success_factors": [],
+      "optimization_strategies": [],
+      "failure_cases": "N/A",
+      "instruction": "Extract design principles for the mixed system: (1) key_success_factors: list of factors that lead to success (e.g., ['phosphonic acid group for strong anchoring', 'aromatic terminal group for electron density modulation', 'appropriate linker length for SAM formation', 'optimal mixing ratio']), (2) optimization_strategies: list of optimization approaches (e.g., ['concentration optimization: 0.5 mg/mL', 'mixing ratio optimization', 'processing conditions: spin-coating in ethanol']), (3) failure_cases: examples of what doesn't work if mentioned. If information is not available, fill 'N/A' or empty list [].",
+      "description": "N/A"
+    },
+    "structure_performance_relationship": {
+      "instruction": "Extract any explicit structure-performance relationships mentioned in the paper for the mixed system: how structural parameters affect performance (e.g., 'chain length affects PCE', 'terminal group influences Voc', 'mixing ratio affects synergistic effects'), optimization strategies (e.g., 'concentration optimization: 0.5 mg/mL', 'mixing ratio optimization'), design principles or rules of thumb. If no explicit relationship is mentioned, fill 'N/A'.",
+      "description": "N/A"
+    }
+  }
+}
