@@ -6,7 +6,15 @@ Inventory source: local full project directory `F:\projects\SAM_Agent_`
 
 Inventory date: 2026-07-02
 
-Prepared archive version: `v20260702`
+Zenodo DOI: `10.5281/zenodo.21132629`
+
+Zenodo URL: `https://doi.org/10.5281/zenodo.21132629`
+
+Zenodo all-versions DOI: `10.5281/zenodo.21132628`
+
+Zenodo record version: `v20260703`
+
+Archive file version: `v20260702`
 
 ## Summary
 
@@ -79,4 +87,4 @@ Do not archive local-only or unrelated material such as `.git/`, `.env`, editor 
 
 ## Suggested Manuscript Wording
 
-Code and model-training scripts are available at GitHub. Processed datasets, generated molecular libraries, trained model weights, and other large artifacts are available from the external archive at DOI: `to be added`.
+Code and model-training scripts are available at GitHub. Processed datasets, generated molecular libraries, trained model weights, and other large artifacts are available from the Zenodo archive at DOI: `10.5281/zenodo.21132629`.

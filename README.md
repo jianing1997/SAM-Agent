@@ -44,10 +44,12 @@ SAM-Agent/
 
 This GitHub repository intentionally excludes large files, including trained model weights, generated molecular libraries, retrosynthesis datasets, RAG vector indexes, and full processed datasets.
 
-After DOI deposition, please cite and download the full data/model package from:
+Please cite and download the full data/model package from:
 
 ```text
-DOI: to be added
+DOI: 10.5281/zenodo.21132629
+URL: https://doi.org/10.5281/zenodo.21132629
+All-versions DOI: 10.5281/zenodo.21132628
 ```
 
 Expected external artifacts include:
@@ -62,7 +64,8 @@ Expected external artifacts include:
 Prepared archive package:
 
 ```text
-Version: v20260702
+Zenodo record version: v20260703
+Archive file version: v20260702
 Total package size: approximately 25.001 GB
 Package format: tar files plus SHA256 checksums
 ```
