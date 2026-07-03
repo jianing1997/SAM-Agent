@@ -6,7 +6,7 @@ This public repository contains the code release for the manuscript:
 
 **Multi-Agent AI Enables End-to-End Discovery of Functional Molecules for Optoelectronics**
 
-Model training/evaluation scripts are included in this GitHub repository. Large model weights, generated molecular libraries, processed datasets, and other bulky artifacts are not stored here. They have been packaged as a separate data/model archive and should be deposited in an external repository with a DOI before submission or publication.
+Model training/evaluation scripts are included in this GitHub repository. Large model weights, generated molecular libraries, processed datasets, and other bulky artifacts are not stored here. They have been packaged as a separate data/model archive and are available on Zenodo with DOI `10.5281/zenodo.21132629`.
 
 ## Repository Contents
 
@@ -52,7 +52,7 @@ URL: https://doi.org/10.5281/zenodo.21132629
 All-versions DOI: 10.5281/zenodo.21132628
 ```
 
-Expected external artifacts include:
+The Zenodo archive includes:
 
 - trained structure-constrained molecular generator weights
 - Uni-Mol/property-prediction weights and processed datasets

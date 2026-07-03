@@ -1,6 +1,6 @@
 # Archive Manifest
 
-This file summarizes large data and model artifacts that are intentionally excluded from the GitHub source-code repository and should be deposited in a long-term external archive with a DOI.
+This file summarizes large data and model artifacts that are intentionally excluded from the GitHub source-code repository and deposited in the Zenodo archive with DOI `10.5281/zenodo.21132629`.
 
 Inventory source: local full project directory `F:\projects\SAM_Agent_`
 
@@ -20,7 +20,7 @@ Archive file version: `v20260702`
 
 The public GitHub repository contains code, model training/evaluation scripts, configuration files, and small example notebooks. It excludes trained weights, generated molecular libraries, processed datasets, pretrained third-party model files, and runtime artifacts.
 
-Prepared local archive package:
+Published Zenodo archive package:
 
 | Class | Count / files | Size |
 | --- | ---: | ---: |
@@ -70,9 +70,9 @@ The local package also includes `archives_manifest.csv` and `archives_sha256.txt
 | `.pb` | 2 | 0.052 GB |
 | `.sdf` | 13,199 | less than 0.001 GB total |
 
-## Recommended Archive Contents
+## Archived Contents
 
-Deposit the following as a versioned archive package:
+The Zenodo archive contains the following versioned artifact groups:
 
 - `data/generated/generated_molcule_1.csv`
 - `data/generated/generated_molcule_2.csv`
